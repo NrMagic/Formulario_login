@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}  
+#message
+{
+    display: none;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#userTable 
+{
+    display: none;
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#userTable th, #userTable td 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#userTable th 
+{
+    background-color: #f2f2f2;
+}

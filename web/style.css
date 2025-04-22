@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    display: flex;
+    gap:250px;
+    background-color: black;
+    width: 100%;
+    padding: 30px;
+    color: white;
+}
+main
+{
+    display: flex;
+    align-items: center;
+    background-image: url(IMG/logoname.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.logotipo
+{   
+    display: flex;
+    text-align: center;
+    gap: 245px;
+    border: none;
+}
+.group-center
+{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+.link-group
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 15px;
+    color: white;
+
+}
+iframe
+{
+    background-image: url(IMG/logoname.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    border: none;
+    background-color: black;
+    outline: none;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(65, 65, 65, 0.922);
+    padding: 30px;
+    border-radius: 15px;
+}
+.pesquisa
+{
+    color: white;
+}
+.caixa
+{
+background-color: rgba(128, 128, 128, 0.8);
+padding: 15px;
+border-radius: 15px;
+width: auto;
+height: auto;
+}
+.box-pesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.alt
+{
+    background-color: rgba(128, 128, 128, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+}
+fieldset{
+    border: 3px solid goldenrod;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    
+}
+legend{
+    border: 1px solid goldenrod;
+    padding: 10px;
+    text-align: center;
+    background-color: goldenrod;
+    border-radius: 8px;
+}
+.inputbox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: auto;
+    letter-spacing: 2px;
+    
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: white;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#classe
+{
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+#data_nasc{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+#labelData{
+    color:white;
+}
+#submit{
+    position: relative;
+    transform: translate(180px, 0px );
+    background-color: rgb(218, 165, 32);
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-color: rgb(145, 107, 11);
+    color: white;
+}
+#logout
+{
+    background-color: goldenrod;
+    border: none;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+}
+#logout:hover
+{
+    background-color: rgb(145, 107, 11);
+    color: white;
+}
+#new-data_nasc2{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}

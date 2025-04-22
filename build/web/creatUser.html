@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Cadastro de Usuário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="box">
+            <fieldset>
+                <legend><b>Criação de Usuarios</b></legend>
+                <form action="creat.jsp" method="post" id="userForm"></form>
+                <div class="inputbox">
+                    <input type="number" id="ID" name="ID" class="inputUser" required>
+                    <label class="labelInput">Id Usuario</label>
+                    </div>
+                    <div class="inputbox">
+                    <input type="text" id="usuario" name="usuario" class="inputUser" required>
+                    <label class="labelInput">Novo Usuario</label>
+                    </div>
+                    <div class="inputbox">
+                    <input type="text" id="senha" name="senha" class="inputUser" required>
+                    <label class="labelInput">Senha do Usuario</label>
+                    </div>
+                    <label><b>Classe do usuario:</b></label>
+                    <select id="classe" name="classe" required>
+                        <option>Admin</option>
+                        <option>Usuario</option>
+                    </select>
+                    <button type="submit" name="submit" id="submit">Salvar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logotipo">
+               <img src="IMG/logotipo.jpeg" alt="logotipo" width="100px" height="70px">
+            </div>
+            <div class="group-center">
+                 <h1>Bem Vindo ao meu Teste</h1>
+            </div>
+          
+        </header>
+        <main>
+        <form action="login.jsp" method="post" >
+            <div class="box">   
+                <fieldset>
+                    <legend><b>LOGIN</b></legend>
+                <div class="inputbox">
+                    <input type="text" name="usuario" id="usuario" class="inputUser" required>
+                    <label class="labelInput">Usuario</label>
+                </div>
+                <div class="inputbox"> 
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label class="labelInput">Senha</label>
+                </div>
+                    <input type="submit" value="Enter" name="submit" id="submit">
+                    <a href="esqueceusenha.hmtl" target="target">Esqueci a senha</a>
+                    </fieldset>
+            </div>
+        </form>
+        </main>
+    </body>
+</html>

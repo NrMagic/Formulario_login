@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" class="style">
+    </head>
+    <body>
+        <div class="box">
+        <form action="formulario.jsp" method="post" >
+                <fieldset>
+                    <legend><b>Formulario de clientes</b></legend>
+                    <div class="line">
+                        <div class="inputbox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label class="labelInput">Primeiro Nome</label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="posnome" id="posnome" class="inputUser" required>
+                            <label class="labelInput">Ultimo Nome</label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                            <label class="labelInput">Endereço</label>
+                        </div>
+                    </div> 
+                    <div class="line">
+                        <div class="inputbox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label class="labelInput">Cidade</label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label class="labelInput">Estado</label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" maxlength="14" oninput="formatPhone(this)" required>
+                            <label class="labelInput">Telefone</label>
+                        </div>
+                    </div>
+                    <div class="line">
+                         <div class="inputbox">   
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label class="labelInput">email</label>
+                        </div>
+                            <label for="data_nasc" id="labelData"><b>Data De Nascimento:</b></label>
+                            <input type="date" name="data_nasc" id="data_nasc"  required>
+                        <div class="inputbox">
+                            <input type="text" name="cpf" id="cpf" class="inputUser" maxlength="11" required>
+                            <label class="labelInput">CPF</label>   
+                        </div>
+                    </div>    
+                        <input type="submit" value="Enter" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
